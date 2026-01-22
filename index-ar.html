@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>المهندس كريم أحمد | بورتفوليو</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Cairo:wght@300;400;700&display=swap">
+</head>
+<body class="dark">
+    <canvas id="matrix-bg"></canvas>
+
+    <header>
+        <div class="logo">ENG<span>KAREEM</span></div>
+        <div class="nav-controls">
+            <button id="theme-toggle" class="control-btn">
+                <i class="fas fa-moon"></i> الوضع الليلي
+            </button>
+            <a href="index.html" class="control-btn lang-btn">
+                <i class="fas fa-language"></i> English
+            </a>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h1><span class="hacker-text">المهندس كريم أحمد</span></h1>
+            <p class="tagline">مطور برمجيات كامل | متخصص أمن سيبراني | مبتكر تكنولوجي</p>
+            <div class="terminal">
+                <div class="terminal-line">> بدء تشغيل النظام...</div>
+                <div class="terminal-line">> تحميل البورتفوليو...</div>
+                <div class="terminal-line">> مرحبًا بك في المصفوفة، أيها المستخدم.</div>
+                <div class="terminal-line">> اكتب 'help' للأوامر <span class="cursor"></span></div>
+            </div>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn glitch">اتصل بي</a>
+                <a href="#projects" class="btn">مشاريعي</a>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2><i class="fas fa-user"></i> من أنا</h2>
+            <p>أنا مطور برمجيات كامل شغوف بخبرة في إنشاء تطبيقات ويب قوية وتنفيذ أنظمة آمنة. مع سنوات من الخبرة في الأمن السيبراني وتطوير البرمجيات، أتخصص في بناء حلول تكون وظيفية وآمنة في نفس الوقت.</p>
+            <p>يجمع أسلوبي بين التكنولوجيا الحديثة والكود النظيف والفعال لتقديم تجارب رقمية استثنائية. أتعلم باستمرار وأتكيف مع التحديات الجديدة في المشهد التكنولوجي دائم التطور.</p>
+            
+            <div class="skills-section">
+                <h3>المهارات التقنية</h3>
+                <div class="skills-container">
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">React</span>
+                    <span class="skill-tag">Node.js</span>
+                    <span class="skill-tag">الأمن السيبراني</span>
+                    <span class="skill-tag">إدارة قواعد البيانات</span>
+                    <span class="skill-tag">تطوير الـAPI</span>
+                    <span class="skill-tag">الحوسبة السحابية</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2><i class="fas fa-code"></i> مشاريعي</h2>
+            <p>إليك بعض مشاريعي الأخيرة التي تعرض مهاراتي وخبرتي:</p>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>نظام مصرفي آمن</h3>
+                    <p>تطبيق مصرفي كامل مع ميزات أمان متقدمة وبروتوكولات تشفير.</p>
+                    <div class="project-skills">
+                        <span class="skill-tag small">React</span>
+                        <span class="skill-tag small">Node.js</span>
+                        <span class="skill-tag small">MongoDB</span>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <h3>منصة تجارة إلكترونية</h3>
+                    <p>حل تجارة إلكترونية متجاوب مع تكامل الدفع ولوحة تحكم إدارية.</p>
+                    <div class="project-skills">
+                        <span class="skill-tag small">Vue.js</span>
+                        <span class="skill-tag small">Express</span>
+                        <span class="skill-tag small">MySQL</span>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <h3>أداة أمن الشبكات</h3>
+                    <p>أداة أمن سيبراني لتحليل الشبكات وتقييم الثغرات الأمنية.</p>
+                    <div class="project-skills">
+                        <span class="skill-tag small">Python</span>
+                        <span class="skill-tag small">الأمن السيبراني</span>
+                        <span class="skill-tag small">الشبكات</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2><i class="fas fa-envelope"></i> اتصل بي</h2>
+            <p>لا تتردد في التواصل للتعاون أو استفسارات المشاريع أو مجرد الترحيب. أنا دائمًا منفتح لمناقشة فرص جديدة.</p>
+            
+            <div class="contact-links">
+                <a href="https://wa.me/201025844231" class="contact-link" target="_blank" id="whatsapp-link">
+                    <i class="fab fa-whatsapp"></i>
+                    <div>
+                        <strong>واتساب</strong>
+                        <div>+20 102 584 4231</div>
+                    </div>
+                </a>
+                
+                <a href="mailto:ebnahmed233@gmail.com" class="contact-link" id="email-link">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <strong>البريد الإلكتروني</strong>
+                        <div>ebnahmed233@gmail.com</div>
+                    </div>
+                </a>
+            </div>
+            
+            <h3 class="form-title">إرسال رسالة مباشرة</h3>
+            <form class="contact-form" id="message-form">
+                <div class="form-group">
+                    <label for="name">اسمك</label>
+                    <input type="text" id="name" class="form-control" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">بريدك الإلكتروني</label>
+                    <input type="email" id="email" class="form-control" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">رسالتك</label>
+                    <textarea id="message" class="form-control" required></textarea>
+                </div>
+                
+                <button type="submit" class="btn submit-btn">إرسال الرسالة</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 المهندس كريم أحمد. جميع الحقوق محفوظة.</p>
+        <p class="footer-sub">يتميز هذا البرتفوليو برسوم متحركة وتأثيرات تفاعلية.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eng Kareem Ahmed | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Roboto:wght@300;400;700&display=swap">
+</head>
+<body class="dark">
+    <!-- Matrix Background Animation -->
+    <canvas id="matrix-bg"></canvas>
+
+    <!-- Header with Controls -->
+    <header>
+        <div class="logo">ENG<span>KAREEM</span></div>
+        <div class="nav-controls">
+            <button id="theme-toggle" class="control-btn">
+                <i class="fas fa-moon"></i> Night Mode
+            </button>
+            <a href="index-ar.html" class="control-btn lang-btn">
+                <i class="fas fa-language"></i> العربية
+            </a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Hero Section -->
+        <section class="hero">
+            <h1><span class="hacker-text">Eng Kareem Ahmed</span></h1>
+            <p class="tagline">Full-Stack Developer | Cybersecurity Enthusiast | Tech Innovator</p>
+            <div class="terminal">
+                <div class="terminal-line">> Initializing system...</div>
+                <div class="terminal-line">> Loading portfolio...</div>
+                <div class="terminal-line">> Welcome to the matrix, user.</div>
+                <div class="terminal-line">> Type 'help' for commands <span class="cursor"></span></div>
+            </div>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn glitch">CONTACT ME</a>
+                <a href="#projects" class="btn">VIEW PROJECTS</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2><i class="fas fa-user"></i> About Me</h2>
+            <p>I'm a passionate full-stack developer with expertise in creating robust web applications and implementing secure systems. With years of experience in cybersecurity and software development, I specialize in building solutions that are both functional and secure.</p>
+            <p>My approach combines cutting-edge technology with clean, efficient code to deliver exceptional digital experiences. I'm constantly learning and adapting to new challenges in the ever-evolving tech landscape.</p>
+            
+            <div class="skills-section">
+                <h3>Technical Skills</h3>
+                <div class="skills-container">
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">React</span>
+                    <span class="skill-tag">Node.js</span>
+                    <span class="skill-tag">Cybersecurity</span>
+                    <span class="skill-tag">Database Management</span>
+                    <span class="skill-tag">API Development</span>
+                    <span class="skill-tag">Cloud Computing</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2><i class="fas fa-code"></i> My Projects</h2>
+            <p>Here are some of my recent projects that showcase my skills and expertise:</p>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Secure Banking System</h3>
+                    <p>A full-stack banking application with advanced security features and encryption protocols.</p>
+                    <div class="project-skills">
+                        <span class="skill-tag small">React</span>
+                        <span class="skill-tag small">Node.js</span>
+                        <span class="skill-tag small">MongoDB</span>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <h3>E-Commerce Platform</h3>
+                    <p>A responsive e-commerce solution with payment integration and admin dashboard.</p>
+                    <div class="project-skills">
+                        <span class="skill-tag small">Vue.js</span>
+                        <span class="skill-tag small">Express</span>
+                        <span class="skill-tag small">MySQL</span>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <h3>Network Security Tool</h3>
+                    <p>A cybersecurity tool for network analysis and vulnerability assessment.</p>
+                    <div class="project-skills">
+                        <span class="skill-tag small">Python</span>
+                        <span class="skill-tag small">Cybersecurity</span>
+                        <span class="skill-tag small">Network</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2><i class="fas fa-envelope"></i> Contact Me</h2>
+            <p>Feel free to reach out for collaboration, project inquiries, or just to say hello. I'm always open to discussing new opportunities.</p>
+            
+            <div class="contact-links">
+                <a href="https://wa.me/201025844231" class="contact-link" target="_blank" id="whatsapp-link">
+                    <i class="fab fa-whatsapp"></i>
+                    <div>
+                        <strong>WhatsApp</strong>
+                        <div>+20 102 584 4231</div>
+                    </div>
+                </a>
+                
+                <a href="mailto:ebnahmed233@gmail.com" class="contact-link" id="email-link">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <strong>Email</strong>
+                        <div>ebnahmed233@gmail.com</div>
+                    </div>
+                </a>
+            </div>
+            
+            <h3 class="form-title">Send a Direct Message</h3>
+            <form class="contact-form" id="message-form">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" class="form-control" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" class="form-control" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" class="form-control" required></textarea>
+                </div>
+                
+                <button type="submit" class="btn submit-btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Eng Kareem Ahmed. All rights reserved.</p>
+        <p class="footer-sub">This portfolio features interactive animations and effects.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
